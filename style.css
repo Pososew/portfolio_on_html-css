@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 829px;
+    background: url("./assets/img/BG1.png") center center/cover no-repeat;
+}
+
+.header .header_title {
+    padding-top: 259px;
+    color: #fff;
+    text-align: center;
+    font-family: Iceland;
+    font-size: 200px;
+    font-weight: 400;
+}
+
+.header .header_subtitle {
+    padding-top: 16px;
+    color: #a3ff47;
+    font-family: Iceland;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.greeting {
+    min-height: 900px;
+    padding: 132px 0 121px 0;
+}
+
+.greeting .greeting_img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.greeting .greeting_title {
+    margin-top: 61px;
+    color: #1e1e1e;
+    font-family: Iceland;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.greeting .greeting_text {
+    margin-top: 44px;
+    margin-left: 455px;
+    width: 474px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: Hubballi;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 126%;
+}
+
+.skills {
+    min-height: 990px;
+    padding: 71px 0 70px 0;
+}
+
+.skills .skills_title,
+.touch .touch_title {
+    color: #1e1e1e;
+    font-family: Iceland;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.skills .skills_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.skills .skills_wrapper .skills_item {
+    width: 613px;
+    text-align: center;
+}
+
+.skills .skills_wrapper .skills_item .skills_img {
+    width: 100%;
+}
+
+.skills .skills_wrapper .skills_item .skills_subtitle {
+    margin-top: 69px;
+    color: #1e1e1e;
+    font-family: Iceland;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skills .skills_wrapper .skills_item .skills_text {
+    margin-top: 58px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: Hubballi;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 126%;
+}
+
+.touch {
+    min-height: 887px;
+    padding: 121px 0 254px 0;
+}
+
+.touch .touch_text {
+    margin-top: 57px;
+    margin-left: 490px;
+    width: 460px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: "Hubballi";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 126%;
+}
+
+.touch .touch_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 462px;
+    height: 88px;
+    border-radius: 20px;
+    background: #54008d;
+    color: #fff;
+    font-family: Iceland;
+    font-size: 48px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.touch .touch_btn:hover {
+    background-color: white; /* Green */
+    color: #54008d;
+    border: 1px solid #54008d;
+}
+
+.info {
+    margin: 0 auto;
+    min-height: 210px;
+    text-align: center;
+    padding: 53px 0 58px 0;
+    background: #54008d;
+    color: #fff;
+    font-family: Hubballi;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.info .info_links .info_media {
+    margin-right: 180px;
+}
+.info .info_links .info_media:last-child {
+    margin-right: 0;
+}
+
+footer a {
+    color: #fff;
+    font-family: Hubballi;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.info .info_profiles {
+    margin-top: 31px;
+}
